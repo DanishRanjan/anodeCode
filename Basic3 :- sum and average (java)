@@ -1,0 +1,16 @@
+public class Danish4 {
+    public static void main (String args[])
+    {
+int a,b,c,d,e,sum;
+float average;
+a=60;
+b=80;
+c=90;
+d=81;
+e=75;
+sum=a+b+c+d+e;
+average=sum/5;
+System.out.println("sum of num "+sum);
+System.out.println("average of total "+average);
+    }
+}
