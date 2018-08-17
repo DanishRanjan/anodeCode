@@ -1,0 +1,30 @@
+import java.util.*;
+public class Danish11 {
+    public static void main(String args[])
+    {
+        int hindi,english,math,physics,chemistry,total;
+        float average;
+        System.out.println("enter five subject values");
+        Scanner obj=new Scanner (System.in);
+        hindi=obj.nextInt();
+        english=obj.nextInt();
+        math=obj.nextInt();
+        physics=obj.nextInt();
+        chemistry=obj.nextInt();
+        
+        total = english+hindi+math+physics+chemistry;
+        average= total/5;
+        if (average >=90)
+        {System.out.println("A grade");}
+        
+        else if (average >=70)
+        {System.out.println("B grade");}
+        
+        else if (average >=50)
+        {System.out.println("C grade");}
+        
+        else 
+        {System.out.println("D grade");} 
+        
+    }
+}
