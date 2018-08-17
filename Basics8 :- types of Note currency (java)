@@ -1,0 +1,19 @@
+public class Danish9 {
+    public static void main(String args[])
+    {
+        int amount, TT, OT,FH, TH,ft;
+        amount = 8452000;
+        TT=8452000/2000;
+        OT=8452000/1000;
+        FH=8452000/500;
+        TH=8452000/200;
+        ft=8452000/50;
+        System.out.println("amount "+amount);
+        System.out.println("Two thousand note "+TT );
+        System.out.println("One thousand note "+OT);
+        System.out.println("Five thousand note  "+FH);
+        System.out.println("Two hundred note "+TH);
+        System.out.println("fifty note "+ft);
+    }
+    
+}
