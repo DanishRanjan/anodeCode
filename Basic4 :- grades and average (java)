@@ -1,0 +1,37 @@
+public class Danish5 {
+    public static void main(String args[])
+    {
+        int a,b,c,d,e,sum;
+        float average;
+        a=92;
+        b=98;
+        c=96;
+        d=99;
+        e=95;
+        sum=a+b+c+d+e;
+        average=sum/5;
+        System.out.println(average);
+        if (average>=90)
+        {
+            System.out.println("A");
+        }
+        else if (average>=70)
+        {
+            System.out.println("B");
+        }
+        else if (average>=50)
+        {
+            System.out.println("C");            
+        }
+        else
+        {
+            System.out.println("D");
+        }
+        
+        if (average>=95)
+        {
+            System.out.println("you will get scholarship");
+        }
+        
+    }
+}
